@@ -1,10 +1,10 @@
 # Banking Transactions ETL & Dashboard
 
-
+A **data engineering project** that simulates banking transactions, processes them via an **ETL pipeline**, stores them in a **SQLite warehouse**, and visualizes insights with a **Streamlit dashboard**.
 
 ---
 
-## 📌 Overview
+### 📌 Overview
 This project demonstrates:
 - **ETL pipeline** (Extract → Transform → Load)
 - **Data cleaning & enrichment**
@@ -37,7 +37,8 @@ It is designed to be **simple to run locally**, yet follows patterns similar to 
 
 ---
 
-## 🗂 File Structure
+### 🗂 File Structure
+```
 banking-etl/
 ├─ src/
 │ ├─ init.py
@@ -61,48 +62,47 @@ banking-etl/
 ├─ requirements.txt
 ├─ .gitignore
 └─ README.md
-
-yaml
-Copy
-Edit
+```
+---
+<!--
+### 📸 Architecture
+![ETL Pipeline Diagram]()
 
 ---
-
-## 📸 Architecture
-![ETL Pipeline Diagram](docs/etl_pipeline.png)
-
----
+-->
 
 ## 🚀 Setup & Run
 
-```bash
-# 1️⃣ Clone repo & enter folder
+### 1️⃣ Clone repo & enter folder
 git clone https://github.com/yourusername/banking-etl.git
 cd banking-etl
 
-# 2️⃣ Create & activate virtual environment
-# Windows PowerShell
+### 2️⃣ Create & activate virtual environment
+### Windows PowerShell
 python -m venv venv
 venv\Scripts\Activate
 
-# Mac/Linux
+### Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
 
-# 3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Generate transactions
+### 4️⃣ Generate transactions
 python -m src.generate_transactions --n 5000
 
-# 5️⃣ Run ETL
+### 5️⃣ Run ETL
 python -m src.etl_pipeline
 
-# 6️⃣ View dashboard
+### 6️⃣ View dashboard
 streamlit run src/dashboard.py
-📊 Example Dashboard Screenshots
-(Add screenshots here after running the dashboard)
 
+---
+📊 Example Dashboard Screenshots
+
+
+---
 📈 Future Scope & Scaling
 This project is intentionally lightweight but can scale to production-level pipelines by:
 
