@@ -1,6 +1,6 @@
 # Banking Transactions ETL & Dashboard
 
-A **fresher-friendly data engineering project** that simulates banking transactions, processes them via an **ETL pipeline**, stores them in a **SQLite warehouse**, and visualizes insights with a **Streamlit dashboard**.
+
 
 ---
 
