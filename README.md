@@ -100,6 +100,11 @@ streamlit run src/dashboard.py
 
 ---
 📊 Example Dashboard Screenshots
+<img width="2466" height="1233" alt="image" src="https://github.com/user-attachments/assets/a5b5364b-4408-4924-84fe-5c3292ee835e" />
+
+<img width="2400" height="1204" alt="image" src="https://github.com/user-attachments/assets/e108bf60-ef9f-4e68-8b8e-3671f0bd4741" />
+
+<img width="2443" height="812" alt="image" src="https://github.com/user-attachments/assets/32832d06-ad8b-47b2-b54c-3f13086fec16" />
 
 
 ---
